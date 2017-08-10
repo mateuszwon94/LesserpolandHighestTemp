@@ -46,7 +46,7 @@ while True:
                     maxTemp = curTemp
                     maxTempTimes = {station["name"]: curTime}
             except:
-                "\tBLAD!"
+                print("\tBLAD!")
                 continue
         
         print("\nMaksymalna odczytana temperatura to: " + str(maxTemp))
